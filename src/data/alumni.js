@@ -1,0 +1,70 @@
+const alumni = [
+  {
+    profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+    name: 'Benjamin Slamet',
+    company: 'PT KAI',
+    year: '2020',
+    socialMedia: {
+      instagram: 'https://instagram.com/benjaminslamet',
+      github: 'https://github.com/benjaminslamet',
+      linkedin: 'https://linkedin.com/in/benjaminslamet',
+    },
+  },
+  {
+    profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+    name: 'Benjamin Slamet',
+    company: 'PT KAI',
+    year: '2020',
+    socialMedia: {
+      instagram: 'https://instagram.com/benjaminslamet',
+      github: 'https://github.com/benjaminslamet',
+      linkedin: 'https://linkedin.com/in/benjaminslamet',
+    },
+  },
+  {
+    profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+    name: 'Benjamin Slamet',
+    company: 'PT KAI',
+    year: '2020',
+    socialMedia: {
+      instagram: 'https://instagram.com/benjaminslamet',
+      github: 'https://github.com/benjaminslamet',
+      linkedin: 'https://linkedin.com/in/benjaminslamet',
+    },
+  },
+  {
+    profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+    name: 'Benjamin Slamet',
+    company: 'PT KAI',
+    year: '2020',
+    socialMedia: {
+      instagram: 'https://instagram.com/benjaminslamet',
+      github: 'https://github.com/benjaminslamet',
+      linkedin: 'https://linkedin.com/in/benjaminslamet',
+    },
+  },
+  {
+    profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+    name: 'Benjamin Slamet',
+    company: 'PT KAI',
+    year: '2020',
+    socialMedia: {
+      instagram: 'https://instagram.com/benjaminslamet',
+      github: 'https://github.com/benjaminslamet',
+      linkedin: 'https://linkedin.com/in/benjaminslamet',
+    },
+  },
+  {
+    profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+    name: 'Benjamin Slamet',
+    company: 'PT KAI',
+    year: '2020',
+    socialMedia: {
+      instagram: 'https://instagram.com/benjaminslamet',
+      github: 'https://github.com/benjaminslamet',
+      linkedin: 'https://linkedin.com/in/benjaminslamet',
+    },
+  },
+]
+
+export default alumni

@@ -27,7 +27,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import robots from '../../../data/robots.json'
+import robots from '../../../data/robots.js'
 
 onMounted(() => {
   let attempts = 0

@@ -43,7 +43,7 @@
 
 <script>
 import ProfileAlumni from '../profiles/ProfileAlumni.vue'
-import alumni from '../../data/alumni.json'
+import alumni from '../../data/alumni.js'
 
 export default {
   name: 'Alumni',
