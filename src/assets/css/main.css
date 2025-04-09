@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import 'animate.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(to top, red, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-box {
+  background: linear-gradient(to top, rgb(192, 24, 24), rgb(84, 13, 13));
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.overflow-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
