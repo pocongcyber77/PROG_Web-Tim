@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import alumni from '../../../public/data/alumni.json'
+import alumni from '../../assets/data/alumni.json'
 
 export default {
   props: {

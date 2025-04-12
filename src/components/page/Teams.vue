@@ -142,7 +142,7 @@ import ElecProfile from '../profiles/divisi/ElecProfile.vue'
 import GenManagerProfile from '../profiles/divisi/GenManagerProfile.vue'
 import OfficialProfile from '../profiles/divisi/OfficialProfile.vue'
 import MechProfile from '../profiles/divisi/MechProfile.vue'
-import teamData from '../../../public/data/teamMembers.js'
+import teamData from '../../assets/data/teamMembers.js'
 console.log(teamData)
 
 export default {
