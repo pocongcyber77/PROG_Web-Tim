@@ -27,7 +27,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import robots from '../data/robots.js'
+import robots from '../../../../public/data/robots.js'
 console.log(robots)
 
 onMounted(() => {
