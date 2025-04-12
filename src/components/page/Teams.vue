@@ -143,6 +143,7 @@ import GenManagerProfile from '../profiles/divisi/GenManagerProfile.vue'
 import OfficialProfile from '../profiles/divisi/OfficialProfile.vue'
 import MechProfile from '../profiles/divisi/MechProfile.vue'
 import teamData from './data/teamMembers.js'
+console.log(teamData)
 
 export default {
   components: {

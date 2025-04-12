@@ -28,6 +28,7 @@
 <script setup>
 import { onMounted } from 'vue'
 import robots from '../data/robots.js'
+console.log(robots)
 
 onMounted(() => {
   let attempts = 0

@@ -52,6 +52,7 @@
 <script>
 import NavButtons from '../buttons/NavButtons.vue'
 import robots from './data/robots.js'
+console.log(robots)
 
 export default {
   components: {
