@@ -51,8 +51,6 @@
 
 <script>
 import NavButtons from '../buttons/NavButtons.vue'
-import robots from '../../assets/data/robots.js'
-console.log(robots)
 
 export default {
   components: {
@@ -62,7 +60,36 @@ export default {
     return {
       categories: ['Fiametta', 'Phynix', 'Arabot', 'Abibot'],
       activeCategory: 'Fiametta',
-      robots,
+      robots: [
+        {
+          id: 'Fiametta',
+          image: '/src/assets/images/robots/arabot2.png',
+          alt: 'Foto Fiametta',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
+        },
+        {
+          id: 'Phynix',
+          image: '/src/assets/images/robots/arabot.png',
+          alt: 'Foto Phynix',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
+        },
+        {
+          id: 'Arabot',
+          image: '/src/assets/images/robots/arabot.png',
+          alt: 'Foto Arabot',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
+        },
+        {
+          id: 'Abibot',
+          image: '/src/assets/images/robots/arabot2.png',
+          alt: 'Foto Abibot',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
+        },
+      ],
     }
   },
   methods: {
