@@ -1,12 +1,13 @@
 <template>
   <div class="container mx-auto flex flex-col items-center px-4 py-16 mt-16 mb-10">
     <h1
+      data-aos="fade-down"
       class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text text-red-600 mb-10"
     >
       Alumni Network
     </h1>
     <!-- Swiper Container -->
-    <div class="w-full mb-6">
+    <div data-aos="zoom-in" class="w-full mb-6">
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide" v-for="(alumnus, index) in alumni" :key="index">
@@ -54,7 +55,7 @@ export default {
       backgroundPattern: '/src/assets/images/teams/frame-foto.png',
       alumni: [
         {
-          profilePic: '/src/assets/images/teams/anggota/ibnu.png',
+          profilePic: '/src/assets/images/alumni/rizki.jpg',
           name: 'Benjamin Slamet',
           company: 'PT KAI',
           year: '2020',

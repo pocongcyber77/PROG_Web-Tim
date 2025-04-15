@@ -6,12 +6,14 @@
           <!-- Kolom Kiri -->
           <div class="md:w-1/2 mb-8 md:mb-0 md:mt-0 mt-10 lg:ml-10 md:ml-4">
             <h1
-              class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 sm:mt-10 mt-30 text-5xl gradient-text animate__animated animate__fadeInDown"
+              data-aos="fade-down"
+              class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 sm:mt-10 mt-30 text-5xl gradient-text"
             >
               ABINARA-1
             </h1>
             <p
-              class="mt-6 text-lg font-semibold text-gray-800 leading-relaxed text-shadow animate__animated animate__fadeInDown"
+              data-aos="fade-up"
+              class="mt-6 text-lg font-semibold text-gray-800 leading-relaxed text-shadow"
             >
               Abinara-1 is a team that conducts research and competition for
               <span class="highlight"
@@ -25,9 +27,10 @@
           <!-- Kolom Kanan: Gambar Faizzul -->
           <div class="md:w-1/2 sm:w-1/2 izzul">
             <img
+              data-aos="zoom-in-up"
               src="/src/assets/images/Gambar-Hero.png"
               alt="Anggota Tim Abinara-1"
-              class="w-2xl h-auto lg:px-20 md:px-10 animate__animated animate__fadeInDown"
+              class="w-2xl h-auto lg:px-20 md:px-10"
             />
           </div>
         </div>
@@ -40,16 +43,19 @@
     <div class="parallax-background"></div>
   </div>
 
-  <div class="py-16 items-center self-center mt-20 md:mt-20">
+  <div data-aos="zoom-in-up" class="py-16 items-center self-center mt-20 md:mt-20">
     <h1
       class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text"
     >
       PROJECTS
     </h1>
   </div>
-  <div class="flex flex-col md:flex-row items-center justify-between">
+  <div data-aos="zoom-in-up" class="flex flex-col md:flex-row items-center justify-between">
     <RobotSlider />
-    <p class="m-10 mt-6 text-md sm:text-xl font-semibold text-gray-800 leading-relaxed text-shadow">
+    <p
+      data-aos="zoom-in-up"
+      class="m-10 mt-6 text-md sm:text-xl font-semibold text-gray-800 leading-relaxed text-shadow"
+    >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec
       fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris
       lorem leo, tristique at nunc id, finibus aliquam quam.

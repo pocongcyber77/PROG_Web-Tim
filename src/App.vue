@@ -3,6 +3,13 @@ import { onMounted } from 'vue'
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 
+AOS.init({
+  duration: 1000,
+  // easing: 'ease-in-out',
+  offset: 300,
+  // mirror: true,
+})
+
 // load CSS Swiper
 const loadSwiperCSS = () => {
   if (

@@ -14,12 +14,19 @@ const routes = [
   { path: '/achievement', component: Achievement, name: 'Achievement' },
   // { path: '/gallery', component: Gallery, name: 'Gallery' },
   { path: '/alumni', component: Alumni, name: 'Alumni' },
-  { path: '/*', component: NotFound, name: 'NotFound' },
+  { path: '/:pathMatch(.*)', component: NotFound, name: 'NotFound' },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  },
 })
 
 export default router

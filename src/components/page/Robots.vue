@@ -1,12 +1,13 @@
 <template>
   <div class="container mx-auto px-4 py-16 flex flex-col items-center mt-14">
     <h1
+      data-aos="fade-down"
       class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text text-red-600"
     >
       PROJECTS
     </h1>
 
-    <div class="flex flex-wrap justify-center gap-4 mt-8 mb-10">
+    <div data-aos="zoom-in" class="flex flex-wrap justify-center gap-4 mt-8 mb-10">
       <NavButtons
         v-for="(category, index) in categories"
         :key="index"
@@ -27,6 +28,7 @@
       >
         <!-- Deskripsi -->
         <div
+          data-aos="zoom-in-up"
           class="md:w-[50%] lg:w-[60%] bg-gradient-to-r from-red-900 to-red-500 text-white p-6 rounded-2xl shadow-2xl my-20 xl:mx-20 lg:mx-10 md:mx-6 text-center md:text-left"
         >
           <p class="text-lg leading-relaxed font-semibold text-shadow">
@@ -35,8 +37,8 @@
         </div>
 
         <!-- Gambar Robot -->
-        <div class="md:w-[45%] lg:w-[50%] flex justify-center my-6 md:mt-0">
-          <div class="relative p-6 rounded-full flex items-center justify-center">
+        <div data-aos="zoom-in-up" class="md:w-[45%] lg:w-[50%] flex justify-center my-6 md:mt-0">
+          <div ref="robotRefs" class="relative p-6 rounded-full flex items-center justify-center">
             <img
               :src="robot.image"
               :alt="robot.alt"
@@ -92,6 +94,9 @@ export default {
       ],
     }
   },
+  mounted() {
+    this.startAnimationLoop()
+  },
   methods: {
     setActiveCategory(category) {
       this.activeCategory = category
@@ -99,6 +104,18 @@ export default {
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' })
       }
+    },
+    startAnimationLoop() {
+      const robotElements = this.$refs.robotRefs
+      if (!robotElements) return
+
+      setInterval(() => {
+        robotElements.forEach((robot) => {
+          robot.classList.remove('animate__animated', 'animate__tada')
+          void robot.offsetWidth
+          robot.classList.add('animate__animated', 'animate__tada')
+        })
+      }, 3000)
     },
   },
 }

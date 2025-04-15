@@ -2,6 +2,7 @@
   <div class="bg-white py-20">
     <div class="container mx-auto px-4 mt-20 md:mt-10 mb-20">
       <h2
+        data-aos="fade-down"
         class="place-self-center mb-20 lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text"
       >
         ACHIEVEMENT
@@ -22,6 +23,7 @@
           >
             <!-- Item Kiri -->
             <div
+              data-aos="fade-right"
               class="w-full md:w-1/2 pr-0 md:pr-8 order-2 md:order-1"
               :class="{ 'md:text-right': index % 2 === 0 }"
             >
@@ -40,11 +42,13 @@
 
             <!-- Titik Tengah -->
             <div
+              data-aos="fade-down"
               class="hidden md:block absolute left-1/2 -translate-x-1/2 w-8 h-8 bg-red-600 rounded-full z-10 top-1/2 md:top-[initial] md:relative md:left-[initial] md:translate-x-0 md:flex-shrink-0 md:mx-4 md:order-2"
             ></div>
 
             <!-- Item Kanan -->
             <div
+              data-aos="fade-left"
               class="w-full md:w-1/2 pl-0 md:pl-8 order-3"
               :class="{ 'md:text-left': index % 2 === 0 }"
             >

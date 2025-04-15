@@ -1,5 +1,5 @@
 <template>
-  <div class="py-0 mt-16 bg-white">
+  <div data-aos="fade-up" class="py-0 mt-16 bg-white">
     <div class="container mx-auto px-4 mt-20 md:mt-20">
       <h2
         class="place-self-center mb-10 lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-4xl gradient-text"

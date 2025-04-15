@@ -1,13 +1,18 @@
 <template>
   <div class="py-20 items-center self-center mt-10 mb-20 flex flex-col w-full">
     <h1
+      data-aos="fade-down"
       class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text text-red-600 mb-10"
     >
       Gallery
     </h1>
 
     <!-- Swiper Container -->
-    <div class="swiper mySwiper w-full max-w-[1920px] px-4 sm:px-8 md:px-12 lg:px-16">
+    <div
+      data-aos="fade-up"
+      data-aos-delay="300"
+      class="swiper mySwiper w-full max-w-[1920px] px-4 sm:px-8 md:px-12 lg:px-16"
+    >
       <div class="swiper-wrapper">
         <div
           v-for="(image, index) in images"
