@@ -79,7 +79,7 @@ export default {
 
 <style scoped>
 img {
-  filter: drop-shadow(0 0 5px rgba(53, 225, 200, 0.8));
+  filter: drop-shadow(0 0 3px rgba(53, 225, 200, 0.8));
 }
 
 .logo {
