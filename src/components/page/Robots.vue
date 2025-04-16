@@ -66,7 +66,7 @@ export default {
         {
           id: 'Fiametta',
           image:
-            'https://github.com/bielnzar/PROG_Web-Tim/blob/main/src/assets/images/robots/arabot.png',
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot.png',
           alt: 'Foto Fiametta',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
@@ -74,7 +74,7 @@ export default {
         {
           id: 'Phynix',
           image:
-            'https://github.com/bielnzar/PROG_Web-Tim/blob/main/src/assets/images/robots/arabot2.png',
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot2.png',
           alt: 'Foto Phynix',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
@@ -82,7 +82,7 @@ export default {
         {
           id: 'Arabot',
           image:
-            'https://github.com/bielnzar/PROG_Web-Tim/blob/main/src/assets/images/robots/arabot.png',
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot.png',
           alt: 'Foto Arabot',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
@@ -90,7 +90,7 @@ export default {
         {
           id: 'Abibot',
           image:
-            'https://github.com/bielnzar/PROG_Web-Tim/blob/main/src/assets/images/robots/arabot2.png',
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot2.png',
           alt: 'Foto Abibot',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
