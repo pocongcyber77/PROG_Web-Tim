@@ -44,6 +44,7 @@
 
 <script>
 import ProfileAlumni from '../profiles/ProfileAlumni.vue'
+import alumniData from '/src/assets/data/alumni.json'
 
 export default {
   name: 'Alumni',
@@ -53,74 +54,7 @@ export default {
   data() {
     return {
       backgroundPattern: '/src/assets/images/teams/frame-foto.png',
-      alumni: [
-        {
-          profilePic: '/src/assets/images/alumni/rizki.jpg',
-          name: 'Benjamin Slamet',
-          company: 'PT KAI',
-          year: '2020',
-          socialMedia: {
-            instagram: 'https://instagram.com/benjaminslamet',
-            github: 'https://github.com/benjaminslamet',
-            linkedin: 'https://linkedin.com/in/benjaminslamet',
-          },
-        },
-        {
-          profilePic: '/src/assets/images/teams/anggota/ibnu.png',
-          name: 'Benjamin Slamet',
-          company: 'PT KAI',
-          year: '2020',
-          socialMedia: {
-            instagram: 'https://instagram.com/benjaminslamet',
-            github: 'https://github.com/benjaminslamet',
-            linkedin: 'https://linkedin.com/in/benjaminslamet',
-          },
-        },
-        {
-          profilePic: '/src/assets/images/teams/anggota/ibnu.png',
-          name: 'Benjamin Slamet',
-          company: 'PT KAI',
-          year: '2020',
-          socialMedia: {
-            instagram: 'https://instagram.com/benjaminslamet',
-            github: 'https://github.com/benjaminslamet',
-            linkedin: 'https://linkedin.com/in/benjaminslamet',
-          },
-        },
-        {
-          profilePic: '/src/assets/images/teams/anggota/ibnu.png',
-          name: 'Benjamin Slamet',
-          company: 'PT KAI',
-          year: '2020',
-          socialMedia: {
-            instagram: 'https://instagram.com/benjaminslamet',
-            github: 'https://github.com/benjaminslamet',
-            linkedin: 'https://linkedin.com/in/benjaminslamet',
-          },
-        },
-        {
-          profilePic: '/src/assets/images/teams/anggota/ibnu.png',
-          name: 'Benjamin Slamet',
-          company: 'PT KAI',
-          year: '2020',
-          socialMedia: {
-            instagram: 'https://instagram.com/benjaminslamet',
-            github: 'https://github.com/benjaminslamet',
-            linkedin: 'https://linkedin.com/in/benjaminslamet',
-          },
-        },
-        {
-          profilePic: '/src/assets/images/teams/anggota/ibnu.png',
-          name: 'Benjamin Slamet',
-          company: 'PT KAI',
-          year: '2020',
-          socialMedia: {
-            instagram: 'https://instagram.com/benjaminslamet',
-            github: 'https://github.com/benjaminslamet',
-            linkedin: 'https://linkedin.com/in/benjaminslamet',
-          },
-        },
-      ],
+      alumni: alumniData,
     }
   },
   mounted() {

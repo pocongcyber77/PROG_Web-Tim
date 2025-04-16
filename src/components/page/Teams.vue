@@ -168,7 +168,7 @@ import ElecProfile from '../profiles/divisi/ElecProfile.vue'
 import GenManagerProfile from '../profiles/divisi/GenManagerProfile.vue'
 import OfficialProfile from '../profiles/divisi/OfficialProfile.vue'
 import MechProfile from '../profiles/divisi/MechProfile.vue'
-import teamData from './dataMember.vue'
+import teamData from '/src/assets/data/teamMembers.json'
 console.log(teamData)
 
 export default {

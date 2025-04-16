@@ -53,6 +53,7 @@
 
 <script>
 import NavButtons from '../buttons/NavButtons.vue'
+import robots from '/src/assets/data/robots.json'
 
 export default {
   components: {
@@ -62,40 +63,7 @@ export default {
     return {
       categories: ['Fiametta', 'Phynix', 'Arabot', 'Abibot'],
       activeCategory: 'Fiametta',
-      robots: [
-        {
-          id: 'Fiametta',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot.png',
-          alt: 'Foto Fiametta',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
-        },
-        {
-          id: 'Phynix',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot2.png',
-          alt: 'Foto Phynix',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
-        },
-        {
-          id: 'Arabot',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot.png',
-          alt: 'Foto Arabot',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
-        },
-        {
-          id: 'Abibot',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/arabot2.png',
-          alt: 'Foto Abibot',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris lorem leo, tristique at nunc id, finibus aliquam quam.',
-        },
-      ],
+      robots: robots,
     }
   },
   mounted() {
@@ -119,7 +87,7 @@ export default {
           void robot.offsetWidth
           robot.classList.add('animate__animated', 'animate__tada')
         })
-      }, 3000)
+      }, 7000)
     },
   },
 }
