@@ -23,7 +23,7 @@
           >
             <!-- Item Kiri -->
             <div
-              data-aos="fade-right"
+              data-aos="fade-up"
               class="w-full md:w-1/2 pr-0 md:pr-8 order-2 md:order-1"
               :class="{ 'md:text-right': index % 2 === 0 }"
             >
@@ -48,7 +48,7 @@
 
             <!-- Item Kanan -->
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               class="w-full md:w-1/2 pl-0 md:pl-8 order-3"
               :class="{ 'md:text-left': index % 2 === 0 }"
             >
