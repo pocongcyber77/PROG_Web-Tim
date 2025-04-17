@@ -77,32 +77,38 @@ export default {
           year: 2024,
           title: '1st Place in KRSRI National and Best Strategy',
           title2: '3rd Place in KRSRI Regional',
-          image: '/src/assets/images/achievement/KRI2024.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2024.jpg',
         },
         {
           year: 2022,
           title: '3rd Place in KRSRI National',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
         },
         {
           year: 2019,
           title: '3rd Place in KRPAI Regional',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
         },
         {
           year: 2018,
           title: '2nd Place in KRPAI National and Best Design',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
         },
         {
           year: 2017,
           title: '3rd Place in KRPAI Regional and Best Design',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
         },
         {
           year: 2013,
           title: '3rd Place in KRPAI National',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
         },
       ],
     }

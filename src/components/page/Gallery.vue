@@ -43,11 +43,26 @@
 import { onMounted } from 'vue'
 
 const images = [
-  { src: '/src/assets/images/gallery/1.jpg', alt: 'Gallery Image 1' },
-  { src: '/src/assets/images/gallery/2.jpg', alt: 'Gallery Image 2' },
-  { src: '/src/assets/images/gallery/3.jpg', alt: 'Gallery Image 3' },
-  { src: '/src/assets/images/gallery/4.jpg', alt: 'Gallery Image 4' },
-  { src: '/src/assets/images/gallery/5.jpg', alt: 'Gallery Image 5' },
+  {
+    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/1.jpg',
+    alt: 'Gallery Image 1',
+  },
+  {
+    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/2.jpg',
+    alt: 'Gallery Image 2',
+  },
+  {
+    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/3.jpg',
+    alt: 'Gallery Image 3',
+  },
+  {
+    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/4.jpg',
+    alt: 'Gallery Image 4',
+  },
+  {
+    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/5.jpg',
+    alt: 'Gallery Image 5',
+  },
 ]
 
 onMounted(() => {

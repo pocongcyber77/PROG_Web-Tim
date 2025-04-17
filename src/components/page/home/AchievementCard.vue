@@ -92,37 +92,43 @@ export default {
           year: '2024',
           description: '1st Place in KRSRI National and Best Strategy',
           description2: '3rd Place in KRSRI Regional',
-          image: '/src/assets/images/achievement/KRI2024.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2024.jpg',
           details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
         },
         {
           year: '2022',
           description: '3rd Place in KRSRI National',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
           details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
         },
         {
           year: '2019',
           description: '3rd Place in KRPAI Regional',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
           details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
         },
         {
           year: '2018',
           description: '2nd Place in KRPAI National and Best Design',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
           details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
         },
         {
           year: '2017',
           description: '3rd Place in KRPAI Regional and Best Design',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
           details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
         },
         {
           year: '2013',
           description: '3rd Place in KRPAI National',
-          image: '/src/assets/images/achievement/dummy.jpg',
+          image:
+            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
           details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
         },
       ],
