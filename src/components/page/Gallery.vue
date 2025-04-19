@@ -22,7 +22,7 @@
           <img
             :src="image.src"
             :alt="image.alt"
-            class="w-full h-[300px] sm:h-[350px] md:h-[3500px] lg:h-[450px] xl:h-[500px] object-cover lg:rounded-lg rounded-2xl shadow-lg max-h-[500px] transition-transform duration-300 ease-in-out transform hover:scale-105 px-2 lg:px-0"
+            class="w-full h-[300px] sm:h-[350px] md:h-[3500px] lg:h-[450px] xl:h-full object-cover lg:rounded-lg rounded-2xl shadow-lg max-h-[500px] transition-transform duration-300 ease-in-out transform px-2 lg:px-0"
           />
         </div>
       </div>
@@ -41,29 +41,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-
-const images = [
-  {
-    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/1.jpg',
-    alt: 'Gallery Image 1',
-  },
-  {
-    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/2.jpg',
-    alt: 'Gallery Image 2',
-  },
-  {
-    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/3.jpg',
-    alt: 'Gallery Image 3',
-  },
-  {
-    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/4.jpg',
-    alt: 'Gallery Image 4',
-  },
-  {
-    src: 'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/gallery/5.jpg',
-    alt: 'Gallery Image 5',
-  },
-]
+import images from '/src/assets/data/gallery.json'
 
 onMounted(() => {
   let attempts = 0

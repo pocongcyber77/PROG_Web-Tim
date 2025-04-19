@@ -61,7 +61,7 @@ export default {
   },
   data() {
     return {
-      categories: ['Fiametta', 'Phynix', 'Arabot', 'Abibot'],
+      categories: ['Fiametta', 'Phynix', 'Arabot'],
       activeCategory: 'Fiametta',
       robots: robots,
     }
