@@ -25,8 +25,8 @@
               </div>
               <div class="ml-4">
                 <h3 class="text-xl font-bold">{{ achievement.year }}</h3>
-                <p class="text-gray-600">{{ achievement.description }}</p>
-                <p class="text-gray-600">{{ achievement.description2 }}</p>
+                <p class="text-gray-600">{{ achievement.title }}</p>
+                <p class="text-gray-600">{{ achievement.title2 }}</p>
               </div>
             </div>
           </div>
@@ -50,8 +50,8 @@
             />
             <div class="p-4">
               <h3 class="text-xl font-bold">{{ selectedAchievement.year }}</h3>
-              <p class="text-gray-600 font-semibold">{{ selectedAchievement.description }}</p>
-              <p class="text-gray-600 font-semibold">{{ selectedAchievement.description2 }}</p>
+              <p class="text-gray-600 font-semibold">{{ selectedAchievement.title }}</p>
+              <p class="text-gray-600 font-semibold">{{ selectedAchievement.title2 }}</p>
               <p class="text-gray-500 mt-4">{{ selectedAchievement.details }}</p>
             </div>
             <button
@@ -81,57 +81,15 @@
 </template>
 
 <script>
+import achievements from '@/assets/data/achievements.json'
+
 export default {
   name: 'AchievementCard',
   data() {
     return {
       isModalOpen: false,
       selectedAchievement: null,
-      achievements: [
-        {
-          year: '2024',
-          description: '1st Place in KRSRI National and Best Strategy',
-          description2: '3rd Place in KRSRI Regional',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2024.jpg',
-          details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
-        },
-        {
-          year: '2022',
-          description: '3rd Place in KRSRI National',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
-          details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
-        },
-        {
-          year: '2019',
-          description: '3rd Place in KRPAI Regional',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
-          details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
-        },
-        {
-          year: '2018',
-          description: '2nd Place in KRPAI National and Best Design',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
-          details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
-        },
-        {
-          year: '2017',
-          description: '3rd Place in KRPAI Regional and Best Design',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
-          details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
-        },
-        {
-          year: '2013',
-          description: '3rd Place in KRPAI National',
-          image:
-            'https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/dummy.jpg',
-          details: 'Universitas Muhammadiyah Surakarta, 6 Juli 2024',
-        },
-      ],
+      achievements,
     }
   },
   methods: {

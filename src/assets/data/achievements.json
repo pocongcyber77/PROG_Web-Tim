@@ -3,31 +3,37 @@
     "year": 2024,
     "title": "1st Place in KRSRI National and Best Strategy",
     "title2": "3rd Place in KRSRI Regional",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2024.jpg"
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2024.jpg",
+    "details": "Universitas Muhammadiyah Surakarta, 6 Juli 2024"
   },
   {
     "year": 2022,
     "title": "3rd Place in KRSRI National",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2022.jpg"
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2022.jpg",
+    "details": "Institut Teknologi Sepuluh Nopember, 29 Juni- 3 Juli 2022"
   },
   {
     "year": 2019,
     "title": "3rd Place in KRPAI Regional",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRPAI2019.jpeg"
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRPAI2019.jpeg",
+    "details": "Universitas Dian Nuswantoro, 22-23 Maret 2019"
   },
   {
     "year": 2018,
     "title": "2nd Place in KRPAI National and Best Design",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRPAI2018.jpeg"
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRPAI2018.jpeg",
+    "details": "Universitas Muhammadiyah Yogyakarta, 10-13 Juli 2018"
   },
   {
     "year": 2017,
     "title": "3rd Place in KRPAI Regional and Best Design",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2017.jpg"
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRI2017.jpg",
+    "details": "Universitas Pendidikan Indonesia, 6-9 Juli 2017"
   },
   {
     "year": 2013,
     "title": "3rd Place in KRPAI National",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRPAI2013.jpg"
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/achievement/KRPAI2013.jpg",
+    "details": "GOR Jati Diri Semarang, 8 Juni 2013"
   }
 ]
