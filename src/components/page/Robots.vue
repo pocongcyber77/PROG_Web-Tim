@@ -38,7 +38,7 @@
 
         <!-- Gambar Robot -->
         <div data-aos="zoom-in-up" class="md:w-[45%] lg:w-[50%] flex justify-center my-6 md:mt-0">
-          <div ref="robotRefs" class="relative p-6 rounded-full flex items-center justify-center">
+          <div ref="robotRefs" class="relative p-6 flex items-center justify-center">
             <img
               :src="robot.image"
               :alt="robot.alt"
