@@ -1,6 +1,6 @@
 [
   {
-    "profilePic": "/src/assets/images/alumni/alumni_hasfi.svg",
+    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/alumni/alumni_hasfi.svg",
     "name": "Hashfi El Muhandish",
     "department": "Electrical Engineering",
     "year": "2020",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "profilePic": "/src/assets/images/alumni/alumni_nabila.svg",
+    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/alumni/alumni_nabila.svg",
     "name": "Nabila Amalia Putri",
     "department": "Industrial Systems Engineering",
     "year": "2021",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "profilePic": "/src/assets/images/alumni/alumni_hikam.svg",
+    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/alumni/alumni_hikam.svg",
     "name": "Ahmad Ahlul Hikam",
     "department": "Electrical Engineering",
     "year": "2021",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "profilePic": "/src/assets/images/alumni/alumni_shaldan.svg",
+    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/alumni/alumni_shaldan.svg",
     "name": "Laode Shaldan Falih",
     "department": "Information System",
     "year": "2021",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "profilePic": "/src/assets/images/alumni/",
+    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/alumni/",
     "name": "Ahmad Prayoga",
     "department": "Instrumentation Engineering",
     "year": "2021",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "profilePic": "/src/assets/images/alumni/alumni_once.svg",
+    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/alumni/alumni_once.svg",
     "name": "Once Oscar Archieniega",
     "department": "Mechanical Engineering",
     "year": "2021",
