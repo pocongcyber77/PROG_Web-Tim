@@ -34,7 +34,7 @@
     </div>
     <!-- Quotes -->
     <div class="text-center text-gray-700 px-6 py-4 shadow-quotes">
-      <p class="text-xl font-bold italic">
+      <p class="2xl:text-2xl lg:text-xl font-bold italic">
         "Grateful for the past team members who gave their all and helped us achieve great things.
         <br />
         Your contributions were priceless and will never be forgotten. Thank you for being a part of
