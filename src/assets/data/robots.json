@@ -1,13 +1,13 @@
 [
   {
     "id": "Fiametta",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/fiametta-polos.png",
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/fiametta.png",
     "alt": "Foto Fiametta",
     "description": "Fiammetta is Indonesia's first intelligent Robodog, developed by university students. Its applications span social interaction, industry, search and rescue operations, and various sectors. Equipped with advanced sensors and artificial intelligence, Fiammetta boasts dynamic movement, facial recognition and command response capabilities, making it an ideal solution for diverse industrial applications."
   },
   {
     "id": "Phynix",
-    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/phynix-polos.png",
+    "image": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/robots/phynix.png",
     "alt": "Foto Phynix",
     "description": "Phynix is an autonomous six-legged rescue robot designed for navigating challenging terrain and disaster zones. Its stable and robust movement. Phynix is an autonomous six-legged rescue robot designed for navigating challenging terrain and disaster zones. Its stable and robust movement"
   },
