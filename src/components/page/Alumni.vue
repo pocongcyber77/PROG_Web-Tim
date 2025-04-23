@@ -14,8 +14,10 @@
             <ProfileAlumni
               :profilePic="alumnus.profilePic"
               :name="alumnus.name"
+              :department="alumnus.department"
               :company="alumnus.company"
               :year="alumnus.year"
+              :position="alumnus.position"
               :backgroundPattern="backgroundPattern"
               :socialMedia="alumnus.socialMedia"
             />

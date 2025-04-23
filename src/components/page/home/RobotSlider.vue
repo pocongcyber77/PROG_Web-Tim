@@ -56,10 +56,10 @@ onMounted(() => {
           el: '.swiper-pagination',
           clickable: true,
         },
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: true,
-        },
+        // autoplay: {
+        //   delay: 5000,
+        //   disableOnInteraction: true,
+        // },
         keyboard: {
           enabled: true,
           onlyInViewport: false,

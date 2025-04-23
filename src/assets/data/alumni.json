@@ -1,68 +1,74 @@
 [
   {
-    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/teams/anggota/ibnu.png",
-    "name": "Benjamin Slamet",
-    "company": "PT KAI",
+    "profilePic": "/src/assets/images/alumni/alumni_hasfi.svg",
+    "name": "Hashfi El Muhandish",
+    "department": "Electrical Engineering",
     "year": "2020",
+    "position": "Studying",
     "socialMedia": {
-      "instagram": "https://instagram.com/benjaminslamet",
-      "github": "https://github.com/benjaminslamet",
-      "linkedin": "https://linkedin.com/in/benjaminslamet"
+      "instagram": "https://instagram.com/muhandish/",
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/"
     }
   },
   {
-    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/teams/anggota/ibnu.png",
-    "name": "Benjamin Slamet",
-    "company": "PT KAI",
-    "year": "2020",
+    "profilePic": "/src/assets/images/alumni/alumni_nabila.svg",
+    "name": "Nabila Amalia Putri",
+    "department": "Industrial Systems Engineering",
+    "year": "2021",
+    "position": "Studying",
     "socialMedia": {
-      "instagram": "https://instagram.com/benjaminslamet",
-      "github": "https://github.com/benjaminslamet",
-      "linkedin": "https://linkedin.com/in/benjaminslamet"
+      "instagram": "https://instagram.com/nabyaap/",
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/"
     }
   },
   {
-    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/teams/anggota/ibnu.png",
-    "name": "Benjamin Slamet",
-    "company": "PT KAI",
-    "year": "2020",
+    "profilePic": "/src/assets/images/alumni/alumni_hikam.svg",
+    "name": "Ahmad Ahlul Hikam",
+    "department": "Electrical Engineering",
+    "year": "2021",
+    "position": "Studying",
     "socialMedia": {
-      "instagram": "https://instagram.com/benjaminslamet",
-      "github": "https://github.com/benjaminslamet",
-      "linkedin": "https://linkedin.com/in/benjaminslamet"
+      "instagram": "https://instagram.com/ahmad_hikam_2/",
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/"
     }
   },
   {
-    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/teams/anggota/ibnu.png",
-    "name": "Benjamin Slamet",
-    "company": "PT KAI",
-    "year": "2020",
+    "profilePic": "/src/assets/images/alumni/alumni_shaldan.svg",
+    "name": "Laode Shaldan Falih",
+    "department": "Information System",
+    "year": "2021",
+    "position": "Studying",
     "socialMedia": {
-      "instagram": "https://instagram.com/benjaminslamet",
-      "github": "https://github.com/benjaminslamet",
-      "linkedin": "https://linkedin.com/in/benjaminslamet"
+      "instagram": "https://instagram.com/shldnnnn/",
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/"
     }
   },
   {
-    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/teams/anggota/ibnu.png",
-    "name": "Benjamin Slamet",
-    "company": "PT KAI",
-    "year": "2020",
+    "profilePic": "/src/assets/images/alumni/",
+    "name": "Ahmad Prayoga",
+    "department": "Instrumentation Engineering",
+    "year": "2021",
+    "position": "Studying",
     "socialMedia": {
-      "instagram": "https://instagram.com/benjaminslamet",
-      "github": "https://github.com/benjaminslamet",
-      "linkedin": "https://linkedin.com/in/benjaminslamet"
+      "instagram": "https://instagram.com/ahmad.pray/",
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/"
     }
   },
   {
-    "profilePic": "https://raw.githubusercontent.com/bielnzar/PROG_Web-Tim/main/src/assets/images/teams/anggota/ibnu.png",
-    "name": "Benjamin Slamet",
-    "company": "PT KAI",
-    "year": "2020",
+    "profilePic": "/src/assets/images/alumni/alumni_once.svg",
+    "name": "Once Oscar Archieniega",
+    "department": "Mechanical Engineering",
+    "year": "2021",
+    "position": "Studying",
     "socialMedia": {
-      "instagram": "https://instagram.com/benjaminslamet",
-      "github": "https://github.com/benjaminslamet",
-      "linkedin": "https://linkedin.com/in/benjaminslamet"
+      "instagram": "https://instagram.com/ncscr08/",
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/"
     }
   }
 ]

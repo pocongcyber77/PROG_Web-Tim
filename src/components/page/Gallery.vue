@@ -2,7 +2,7 @@
   <div class="py-20 items-center self-center mt-10 mb-20 flex flex-col w-full">
     <h1
       data-aos="fade-down"
-      class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text text-red-600 mb-10"
+      class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 text-5xl gradient-text text-red-600 mb-20"
     >
       Gallery
     </h1>
@@ -22,7 +22,7 @@
           <img
             :src="image.src"
             :alt="image.alt"
-            class="w-full h-[300px] sm:h-[350px] md:h-[3500px] lg:h-[450px] xl:h-full object-cover lg:rounded-lg rounded-2xl shadow-lg max-h-[500px] transition-transform duration-300 ease-in-out transform px-2 lg:px-0"
+            class="w-full h-[300px] sm:h-[350px] md:h-[3500px] lg:h-[450px] xl:h-full object-cover lg:rounded-lg rounded-2xl shadow-xl max-h-[500px] transition-transform duration-300 ease-in-out transform px-2 lg:px-0 mb-10"
           />
         </div>
       </div>

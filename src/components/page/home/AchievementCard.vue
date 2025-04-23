@@ -38,7 +38,7 @@
     <transition name="fade">
       <div
         v-if="isModalOpen"
-        class="fixed inset-0 h-screen flex items-center justify-center z-50"
+        class="fixed inset-10 h-screen flex items-center justify-center z-50"
         @click="closeModal"
       >
         <transition name="scale">

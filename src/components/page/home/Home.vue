@@ -56,9 +56,12 @@
       data-aos="zoom-in-up"
       class="m-10 mt-6 text-md sm:text-xl font-semibold text-gray-800 leading-relaxed text-shadow"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum nibh nec
-      fermentum sodales. Maecenas non euismod orci. Nullam mollis pellentesque ullamcorper. Mauris
-      lorem leo, tristique at nunc id, finibus aliquam quam.
+      Abinara-1 is a student research and competition team from Sepuluh Nopember Institute of
+      Technology (ITS) that develops legged autonomous robots for search and rescue missions. The
+      team focuses on building agile robots capable of navigating complex terrains to detect and
+      assist disaster victims. Through innovation and real-world challenges, Abinara-1 aims to
+      advance robotic solutions that can support emergency response and save lives in
+      critical situations.
     </p>
   </div>
 
