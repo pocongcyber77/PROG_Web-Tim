@@ -8,7 +8,7 @@
           :key="index"
           class="swiper-slide flex flex-col items-center justify-center p-4"
         >
-          <img :src="robot.image" alt="Robot" class="w-64 h-64 object-cover" />
+          <img :src="robot.image" :alt="robot.alt" class="w-64 h-64 object-cover" />
           <p class="mt-4 mb-4 text-center font-bold text-gray-700">{{ robot.id }}</p>
         </div>
       </div>

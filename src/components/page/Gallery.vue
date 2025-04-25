@@ -10,7 +10,6 @@
     <!-- Swiper Container -->
     <div
       data-aos="fade-up"
-      data-aos-delay="300"
       class="swiper mySwiper w-full max-w-[1920px] px-4 sm:px-8 md:px-12 lg:px-16"
     >
       <div class="swiper-wrapper">
@@ -22,10 +21,11 @@
           <img
             :src="image.src"
             :alt="image.alt"
-            class="w-full h-[300px] sm:h-[350px] md:h-[3500px] lg:h-[450px] xl:h-full object-cover lg:rounded-lg rounded-2xl shadow-xl max-h-[500px] transition-transform duration-300 ease-in-out transform px-2 lg:px-0 mb-10"
+            class="w-full h-[300px] sm:h-[350px] md:h-[3500px] lg:h-[450px] xl:h-full object-cover lg:rounded-lg rounded-2xl shadow-xl max-h-[500px] transition-transform duration-300 ease-in-out transform px-2 lg:px-0"
           />
         </div>
       </div>
+      <div class="mt-10"></div>
       <!-- Pagination -->
       <div class="swiper-pagination"></div>
       <!-- Nav Buttons -->

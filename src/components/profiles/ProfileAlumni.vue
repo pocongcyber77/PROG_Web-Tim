@@ -28,7 +28,7 @@
 
       <!-- Photo -->
       <div class="flex justify-center items-center h-4/5 photo-style z-0 mt-6">
-        <img :src="profilePic" alt="Profile" class="w-60 h-full object-cover" />
+        <img :src="profilePic" alt="Foto Profile Alumni" class="w-60 h-full object-cover" />
       </div>
 
       <!-- Sosmed -->

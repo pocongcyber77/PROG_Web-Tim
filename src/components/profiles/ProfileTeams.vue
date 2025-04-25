@@ -6,7 +6,7 @@
     <div
       class="absolute top-2 left-1/2 transform -translate-x-1/2 bg-white rounded-full px-2 py-1 flex items-center justify-center gap-2 shadow-md z-15 max-w-full"
     >
-      <img :src="positionLogo" alt="Divisi Logo" class="w-6 h-6 object-contain" />
+      <img :src="positionLogo" alt="Logo Divisi" class="w-6 h-6 object-contain" />
       <span class="text-gray-900 font-semibold text-sm text-center">{{ position }}</span>
     </div>
 
@@ -27,7 +27,7 @@
 
       <!-- Photo -->
       <div class="flex justify-center items-center h-4/5 photo-style z-0 mt-6">
-        <img :src="profilePic" alt="Profile" class="w-60 h-full object-cover" />
+        <img :src="profilePic" alt="Foto Profile Anggota" class="w-60 h-full object-cover" />
       </div>
 
       <!-- Sosmed -->
