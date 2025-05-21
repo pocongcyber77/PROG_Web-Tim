@@ -45,7 +45,7 @@
             <img
               :src="robot.image"
               :alt="robot.alt"
-              class="object-contain max-w-sm w-full h-[250px] md:h-[300px]"
+              class="object-contain max-w-sm w-full h-[250px] md:h-[300px] lg:hover:scale-130 md:hover:scale-150 hover:scale-140 transition-transform ease-in-out duration-300"
             />
           </div>
         </div>
@@ -99,5 +99,10 @@ export default {
 <style scoped>
 .text-shadow {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.robot-image:hover {
+  transform: scale(1.3);
+  transition: all 0.3s ease-in-out;
 }
 </style>
