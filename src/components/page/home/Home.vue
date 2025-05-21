@@ -1,10 +1,10 @@
 <template>
   <section class="fullscreen">
     <div class="bg-white py-16">
-      <div class="mx-auto px-4 ml-10">
+      <div class="mx-auto px-4 lg:ml-10 md:ml-4 ml-2">
         <div class="flex flex-col md:flex-row items-center justify-between">
           <!-- Kolom Kiri -->
-          <div class="md:w-1/2 mb-8 md:mb-0 md:mt-0 mt-10 lg:ml-10 md:ml-4">
+          <div class="md:w-1/2 mb-8 md:mb-0 md:mt-0 mt-10 lg:ml-10 sm:ml-4">
             <h1
               data-aos="fade-down"
               class="lg:text-7xl font-bold leading-tight md:text-6xl sm:text-6xl md:mt-0 sm:mt-10 mt-30 text-5xl gradient-text"

@@ -29,7 +29,7 @@
         <!-- Deskripsi -->
         <div
           data-aos="zoom-in-up"
-          class="md:w-[50%] lg:w-[60%] bg-gradient-to-r from-red-900 to-red-500 text-white p-6 rounded-2xl shadow-2xl my-20 xl:mx-20 lg:mx-10 md:mx-6 text-center md:text-left"
+          class="md:w-[50%] lg:w-[60%] bg-gradient-to-r from-red-900 to-red-500 text-white p-6 rounded-2xl shadow-2xl sm:my-20 my-10 xl:mx-20 lg:mx-10 md:mx-6 text-center md:text-left"
         >
           <p class="text-lg leading-relaxed font-semibold text-shadow">
             {{ robot.description }}
@@ -37,7 +37,10 @@
         </div>
 
         <!-- Gambar Robot -->
-        <div data-aos="zoom-in-up" class="md:w-[45%] lg:w-[50%] flex justify-center my-6 md:mt-0">
+        <div
+          data-aos="zoom-in-up"
+          class="md:w-[45%] lg:w-[50%] flex justify-center sm:my-6 my-2 md:mt-0"
+        >
           <div ref="robotRefs" class="relative p-6 flex items-center justify-center">
             <img
               :src="robot.image"

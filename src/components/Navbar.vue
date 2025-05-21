@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white shadow-lg fixed w-full z-100 mb-40 lg:mb-0 md:mb-0">
-    <div class="max-w-screen mx-auto lg:px-16 px-10 py-3">
+    <div class="max-w-screen mx-auto lg:px-16 md:px-10 sm:px-8 px-4 2xl:py-4 sm:py-3 py-2">
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <router-link to="/">
