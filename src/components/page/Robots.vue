@@ -45,7 +45,7 @@
             <img
               :src="robot.image"
               :alt="robot.alt"
-              class="object-contain max-w-sm w-full h-[250px] md:h-[300px] lg:hover:scale-130 md:hover:scale-150 hover:scale-140 transition-transform ease-in-out duration-300 cursor-pointer"
+              class="object-contain max-w-sm w-full h-[250px] md:h-[300px] lg:hover:scale-130 md:hover:scale-130 hover:scale-125 transition-transform ease-in-out duration-300 cursor-pointer"
             />
           </div>
         </div>
